@@ -14,6 +14,8 @@
 		3FCACB651B1F4E9B0039D9C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCACB641B1F4E9B0039D9C7 /* Images.xcassets */; };
 		3FCACB681B1F4E9B0039D9C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCACB661B1F4E9B0039D9C7 /* LaunchScreen.xib */; };
 		3FCACB741B1F4E9B0039D9C7 /* ViewControllerTransitioningDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCACB731B1F4E9B0039D9C7 /* ViewControllerTransitioningDemoTests.m */; };
+		3FCACB7F1B1F55790039D9C7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCACB7E1B1F55790039D9C7 /* SecondViewController.m */; };
+		3FCACB821B1F56D20039D9C7 /* BLUnfoldTransitioner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCACB811B1F56D20039D9C7 /* BLUnfoldTransitioner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		3FCACB6D1B1F4E9B0039D9C7 /* ViewControllerTransitioningDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerTransitioningDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCACB721B1F4E9B0039D9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FCACB731B1F4E9B0039D9C7 /* ViewControllerTransitioningDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTransitioningDemoTests.m; sourceTree = "<group>"; };
+		3FCACB7D1B1F55790039D9C7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3FCACB7E1B1F55790039D9C7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3FCACB801B1F56D20039D9C7 /* BLUnfoldTransitioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLUnfoldTransitioner.h; sourceTree = "<group>"; };
+		3FCACB811B1F56D20039D9C7 /* BLUnfoldTransitioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLUnfoldTransitioner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				3FCACB5C1B1F4E9B0039D9C7 /* AppDelegate.m */,
 				3FCACB5E1B1F4E9B0039D9C7 /* ViewController.h */,
 				3FCACB5F1B1F4E9B0039D9C7 /* ViewController.m */,
+				3FCACB7D1B1F55790039D9C7 /* SecondViewController.h */,
+				3FCACB7E1B1F55790039D9C7 /* SecondViewController.m */,
+				3FCACB801B1F56D20039D9C7 /* BLUnfoldTransitioner.h */,
+				3FCACB811B1F56D20039D9C7 /* BLUnfoldTransitioner.m */,
 				3FCACB611B1F4E9B0039D9C7 /* Main.storyboard */,
 				3FCACB641B1F4E9B0039D9C7 /* Images.xcassets */,
 				3FCACB661B1F4E9B0039D9C7 /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCACB7F1B1F55790039D9C7 /* SecondViewController.m in Sources */,
 				3FCACB601B1F4E9B0039D9C7 /* ViewController.m in Sources */,
 				3FCACB5D1B1F4E9B0039D9C7 /* AppDelegate.m in Sources */,
+				3FCACB821B1F56D20039D9C7 /* BLUnfoldTransitioner.m in Sources */,
 				3FCACB5A1B1F4E9B0039D9C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

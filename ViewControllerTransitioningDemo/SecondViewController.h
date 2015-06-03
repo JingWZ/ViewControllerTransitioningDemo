@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  ViewControllerTransitioningDemo
 //
 //  Created by Jing on 15/6/3.
@@ -8,8 +8,6 @@
 
 @import UIKit;
 
-@interface ViewController : UIViewController
-
+@interface SecondViewController : UIViewController
 
 @end
-
